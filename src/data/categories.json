@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "name": "Antigüedades",
+    "image": "https://i.postimg.cc/RVzJRTrt/trunks-4078609-1280.png"
+  },
+  {
+    "id": "2",
+    "name": "Música y Películas",
+    "image": "https://i.postimg.cc/FRRQy8pZ/34556.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Juguetes",
+    "image": "https://i.postimg.cc/YCsVc0z1/bc1e2b3f-4900-4413-93a3-45b25a7f1e02.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Libros y Cómics",
+    "image": "https://i.postimg.cc/9Xkq7jbL/books-2695011-1280.png"
+  },
+  {
+    "id": "5",
+    "name": "Ropa y Calzado",
+    "image": "https://i.postimg.cc/HxRZKh0d/heels-160637-1280.png"
+  }
+]

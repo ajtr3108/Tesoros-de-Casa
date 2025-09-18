@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "category": "Juguetes",
+    "name": "Tren Eléctrico de Madera",
+    "description": "Set de vías y locomotora de madera. Usado en buen estado.",
+    "price": 20,
+    "available": 1,
+    "image": "https://i.postimg.cc/mDPRCK2s/vector-4866548-1280.png"
+  },
+  {
+    "id": 2,
+    "category": "Juguetes",
+    "name": "Bloques de Construcción Gigantes",
+    "description": "Suficientes bloques para construir una pequeña fortaleza. Con señales de uso normales.",
+    "price": 30,
+    "available": 1,
+    "image": "https://i.postimg.cc/g227x809/legos-4338371-1280.png"
+  },
+  {
+    "id": 3,
+    "category": "Juguetes",
+    "name": "Casa de Muñecas de Época",
+    "description": "Casa de muñecas de 1980 con muebles y algunos accesorios. Requiere una ligera limpieza.",
+    "price": 65,
+    "available": 1,
+    "image": "https://i.postimg.cc/QdzfVzP5/house-1429409-1280.png"
+  },
+  {
+    "id": 6,
+    "category": "Antigüedades",
+    "name": "Máquina de Escribir 'Remington' de 1930",
+    "description": "Máquina de escribir manual, operativa y con cinta nueva. Ideal para coleccionismo.",
+    "price": 110,
+    "available": 1,
+    "image": "https://i.postimg.cc/YCTxtWGz/typewriter-1138293-1280.png"
+  },
+  {
+    "id": 7,
+    "category": "Antigüedades",
+    "name": "Tocadiscos de Maleta",
+    "description": "Tocadiscos portátil de los años 60, con altavoz integrado. Funciona correctamente.",
+    "price": 85,
+    "available": 1,
+    "image": "https://i.postimg.cc/DZnLzd2L/record-player-2774900-1280.jpg"
+  },
+
+  {
+    "id": 11,
+    "category": "Libros y Cómics",
+    "name": "El Hobbit - Primera Edición en Español",
+    "description": "Edición rara de 1982. Tapa blanda con algunas páginas amarillentas.",
+    "price": 70,
+    "available": 1,
+    "image": "https://i.postimg.cc/FKZ1Tt4k/Libro-El-Hobbit-Edicion-Ilustrada-Por-El-Autor-Tolkien.jpg"
+  },
+  {
+    "id": 12,
+    "category": "Libros y Cómics",
+    "name": "Colección de Cómics 'Superman' (Años 90)",
+    "description": "Lote de 50 cómics de la década de 1990. Con algunos daños en las portadas.",
+    "price": 80,
+    "available": 1,
+    "image": "https://i.postimg.cc/GhCtnhmT/13-Superman-Comic-Book-Collection.jpg"
+  },
+  {
+    "id": 16,
+    "category": "Ropa y Calzado",
+    "name": "Chaqueta de Mezclilla Levi's (Vintage)",
+    "description": "Modelo de los años 80, talla L. Desgastada pero en buen estado general.",
+    "price": 45,
+    "available": 1,
+    "image": "https://i.postimg.cc/rFnBCQ3y/Levi-s-Women-Jacket-vintage-2000s-64-99.jpg"
+  },
+  {
+    "id": 20,
+    "category": "Ropa y Calzado",
+    "name": "Botas de Montaña 'Timberland' Usadas",
+    "description": "Botas de cuero con suelas Vibram. Con desgaste en la punta. Talla 10 US.",
+    "price": 65,
+    "available": 1,
+    "image": "https://i.postimg.cc/CLBNX7dx/Timberland-Women-s-Tbl-Heritage-7-Platform-In-Honey-Fw23-24-Timberland-Women-Boots.jpg"
+  },
+  {
+    "id": 21,
+    "category": "Música y Películas",
+    "name": "Vinilo 'Led Zeppelin IV' (Original)",
+    "description": "Vinilo de 1971. La carátula tiene un desgaste considerable, pero el disco suena bien.",
+    "price": 40,
+    "available": 1,
+    "image": "https://i.postimg.cc/N0pm52Ln/Music-New-Releases-Concert-Tours-Streaming-Playlists.jpg"
+  },
+  {
+    "id": 24,
+    "category": "Música y Películas",
+    "name": "Película en Blu-ray 'El Padrino'",
+    "description": "Película en Blu-ray con caja de metal. Usado una sola vez.",
+    "price": 15,
+    "available": 1,
+    "image": "https://i.postimg.cc/wTLW3Fzb/2007-The-Godfather-Blue-Ray-Sealed-Original-1972-Classic-Dolby-Audio-Paramount.jpg"
+  }
+]
