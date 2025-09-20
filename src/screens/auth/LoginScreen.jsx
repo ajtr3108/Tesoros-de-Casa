@@ -2,7 +2,8 @@ import { StyleSheet, Text, View, TextInput, Pressable, Dimensions, Switch } from
 import { useEffect, useState } from 'react';
 import { useLoginMutation } from '../../services/authApi';
 import { useDispatch } from 'react-redux';
-import { setUserEmail } from '../../store/slices/userSlices';
+import { setUserEmail, setLocalId } from '../../store/slices/userSlices';
+import { saveSession, clearSession } from '../../database';
 
 const windowWidth = Dimensions.get('window').width;
 
@@ -18,9 +19,28 @@ const dispatch = useDispatch()
         triggerLogin({ email, password })
     }
 
-useEffect(() => {
-    if(result.status === 'fulfilled'){
-        dispatch(setUserEmail({email: result.data.email}))} [result]})
+  useEffect(() => {
+
+        (async () => {
+            if (result.status === "fulfilled") {
+                try {
+                    if (persistSession) {
+                        await saveSession(result.data.localId, result.data.email);
+                        dispatch(setUserEmail(result.data.email))
+                        dispatch(setLocalId(result.data.localId))
+                    } else {
+                        await clearSession();
+                        dispatch(setUserEmail(result.data.email))
+                        dispatch(setLocalId(result.data.localId))
+                    }
+                    
+                } catch (error) {
+                    console.log("Error al guardar sesión:", error);
+                }
+            }
+        })()
+    }, [result])
+
 
     return (
         <View style={styles.container}>
